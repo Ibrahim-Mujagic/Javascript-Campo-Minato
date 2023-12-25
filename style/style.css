@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: monospace;
+}
+
+header {
+  height: 100px;
+  background-color: #66b0c4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+header h2 {
+  font-size: 1.7rem;
+  margin-top: 0px;
+  cursor: default;
+}
+
+select,
+button {
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #66b0c4;
+  color: #fff;
+}
+
+button:hover {
+  box-shadow: 0px 0px 5px #fff;
+}
+
+h1 {
+  color: #66b0c4;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container-general {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  height: 550px;
+  width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid cornflowerblue;
+  color: cornflowerblue;
+  cursor: pointer;
+}
+
+.calc100 {
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+}
+
+.calc81 {
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+}
+
+.calc49 {
+  width: calc(100% / 7);
+  height: calc(100% / 7);
+}
+
+.bomb {
+  background-color: red;
+  color: #fff;
+}
+
+.notBomb {
+  background-color: green;
+  color: #fff;
+  cursor: default;
+}
+
+.lose {
+  color: red;
+}
+
+.win {
+  color: green;
+}
